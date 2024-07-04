@@ -63,7 +63,7 @@ export async function POST(req: Request) {
         username: username!,
         firstName: first_name!,
         lastName: last_name!,
-        photo: image_url
+        photo: image_url,
     }
 
     const newUser = await createUser(user);
